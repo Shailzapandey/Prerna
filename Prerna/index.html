@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prerna - Support for Competitive Exam Students</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Prerna provides empathetic, accessible, and stigma-free emotional support for students who have faced setbacks in competitive exams like NEET, JEE, and others.">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="text-primary fw-bold">Prerna</span>
+                <span class="tagline">Rise Again</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#counseling">Counseling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#career-explorer">Career Explorer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#community">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resources">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mood-tracker">Mood Tracker</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scholarships">Scholarships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white px-4 ms-lg-3" href="#login">Login/Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="display-4 fw-bold mb-4">Your Setback is the <span class="text-primary">Setup</span> for Your Comeback</h1>
+                    <p class="lead mb-4">Prerna provides empathetic, accessible, and stigma-free emotional support for students who have faced setbacks in competitive exams. We're here to help you recover, reflect, and regain motivation.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#counseling" class="btn btn-primary btn-lg">Talk to a Counselor</a>
+                        <a href="#career-explorer" class="btn btn-outline-primary btn-lg">Explore Careers</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image text-center">
+                        <img src="images/student-support.jpeg" alt="Students supporting each other" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">How Prerna Helps You</h2>
+                <p class="lead">Our comprehensive support system designed specifically for students</p>
+            </div>
+            <div class="row g-4">
+                <!-- Anonymous Counseling -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100 p-4 rounded shadow-sm">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-comments text-primary fa-2x"></i>
+                        </div>
+                        <h3 class="h5 fw-bold">Anonymous Counseling</h3>
+                        <p>Connect with professional counselors anonymously to discuss your challenges, emotions, and path forward without judgment.</p>
+                        <a href="#counseling" class="btn btn-sm btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <!-- Career Explorer -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100 p-4 rounded shadow-sm">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-compass text-primary fa-2x"></i>
+                        </div>
+                        <h3 class="h5 fw-bold">Second Career Explorer</h3>
+                        <p>Discover alternative career paths that align with your strengths, interests, and qualifications beyond your initial goals.</p>
+                        <a href="#career-explorer" class="btn btn-sm btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <!-- Peer Support -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100 p-4 rounded shadow-sm">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-users text-primary fa-2x"></i>
+                        </div>
+                        <h3 class="h5 fw-bold">Peer Support Community</h3>
+                        <p>Connect with others who have faced similar challenges and learn from their experiences in a supportive environment.</p>
+                        <a href="#community" class="btn btn-sm btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <!-- Motivational Content -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100 p-4 rounded shadow-sm">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-lightbulb text-primary fa-2x"></i>
+                        </div>
+                        <h3 class="h5 fw-bold">Motivational Content</h3>
+                        <p>Access inspiring stories, articles, and videos from people who overcame setbacks to achieve success in various fields.</p>
+                        <a href="#resources" class="btn btn-sm btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <!-- AI Mood Tracker -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100 p-4 rounded shadow-sm">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-brain text-primary fa-2x"></i>
+                        </div>
+                        <h3 class="h5 fw-bold">AI Mood Tracker</h3>
+                        <p>Monitor your emotional well-being with our AI-powered mood tracker that provides personalized insights and support.</p>
+                        <a href="#mood-tracker" class="btn btn-sm btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+                <!-- Scholarship Finder -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card h-100 p-4 rounded shadow-sm">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-graduation-cap text-primary fa-2x"></i>
+                        </div>
+                        <h3 class="h5 fw-bold">Scholarship & Course Finder</h3>
+                        <p>Discover scholarships, courses, and educational opportunities tailored to your qualifications and career interests.</p>
+                        <a href="#scholarships" class="btn btn-sm btn-outline-primary mt-3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counseling Section -->
+    <section id="counseling" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="images/chat-couselling.jpg" alt="Anonymous counseling session" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-header mb-4">
+                        <h2 class="fw-bold">Anonymous Counseling</h2>
+                        <p class="lead">Speak freely with professional counselors in a safe space</p>
+                    </div>
+                    <p>Our counseling service connects you with experienced professionals who specialize in academic stress, career transitions, and emotional well-being. All sessions are completely anonymous and confidential.</p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> 100% anonymous and confidential</li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Specialized counselors for academic setbacks</li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Text, voice, or video options available</li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Flexible scheduling to fit your needs</li>
+                    </ul>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#counselingModal">Schedule a Session</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Explorer Section -->
+    <section id="career-explorer" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                    <img src="images/career-exploration.jpg" alt="Career exploration" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="section-header mb-4">
+                        <h2 class="fw-bold">Second Career Explorer</h2>
+                        <p class="lead">Discover alternative paths that match your strengths and interests</p>
+                    </div>
+                    <p>Our AI-powered career explorer helps you identify alternative career paths based on your skills, interests, and qualifications. We provide detailed information about each career option, including required education, expected salary, and growth potential.</p>
+                    <div class="career-search mb-4">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter your skills or interests..." aria-label="Career search">
+                            <button class="btn btn-primary" type="button">Explore</button>
+                        </div>
+                    </div>
+                    <p class="small">Popular searches: Data Science, Digital Marketing, UI/UX Design, Content Creation, Teaching</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">Peer Support Community</h2>
+                <p class="lead">Connect with others who understand your journey</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="community-card h-100 p-4 rounded shadow-sm bg-white">
+                        <h3 class="h5 fw-bold">Success Stories</h3>
+                        <p>Read inspiring stories from students who overcame setbacks and found success in alternative paths.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Read Stories</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="community-card h-100 p-4 rounded shadow-sm bg-white">
+                        <h3 class="h5 fw-bold">Discussion Forums</h3>
+                        <p>Join topic-based forums to discuss challenges, share advice, and connect with peers facing similar situations.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Join Discussions</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="community-card h-100 p-4 rounded shadow-sm bg-white">
+                        <h3 class="h5 fw-bold">Mentorship Program</h3>
+                        <p>Connect with mentors who have successfully navigated career transitions after exam setbacks.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Find a Mentor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">Motivational Resources</h2>
+                <p class="lead">Curated content to inspire and guide your journey</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="resource-card h-100 rounded shadow-sm overflow-hidden">
+                        <img src="images/resource-1.jpg" alt="Motivational article" class="img-fluid resource-img">
+                        <div class="p-3">
+                            <h3 class="h6 fw-bold">Finding Strength After Failure</h3>
+                            <p class="small">Learn how setbacks can become the foundation for future success.</p>
+                            <a href="#" class="btn btn-sm btn-link p-0">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="resource-card h-100 rounded shadow-sm overflow-hidden">
+                        <img src="images/resource-2.jpg" alt="Video tutorial" class="img-fluid resource-img">
+                        <div class="p-3">
+                            <h3 class="h6 fw-bold">Rebuilding Confidence</h3>
+                            <p class="small">Practical exercises to rebuild your self-confidence after a setback.</p>
+                            <a href="#" class="btn btn-sm btn-link p-0">Watch Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="resource-card h-100 rounded shadow-sm overflow-hidden">
+                        <img src="images/resource-3.jpg" alt="Podcast episode" class="img-fluid resource-img">
+                        <div class="p-3">
+                            <h3 class="h6 fw-bold">Alternative Paths to Success</h3>
+                            <p class="small">Stories of successful professionals who took unconventional routes.</p>
+                            <a href="#" class="btn btn-sm btn-link p-0">Listen Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="resource-card h-100 rounded shadow-sm overflow-hidden">
+                        <img src="images/resource-4.jpg" alt="E-book cover" class="img-fluid resource-img">
+                        <div class="p-3">
+                            <h3 class="h6 fw-bold">The Resilience Handbook</h3>
+                            <p class="small">A comprehensive guide to building resilience in challenging times.</p>
+                            <a href="#" class="btn btn-sm btn-link p-0">Download E-book</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-outline-primary">View All Resources</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mood Tracker Section -->
+    <section id="mood-tracker" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="images/mood-tracker.jpg" alt="AI mood tracking" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-header mb-4">
+                        <h2 class="fw-bold">AI Mood Tracker</h2>
+                        <p class="lead">Monitor and improve your emotional well-being</p>
+                    </div>
+                    <p>Our AI-powered mood tracker helps you understand your emotional patterns and provides personalized recommendations to improve your mental well-being. Regular check-ins can help you identify triggers and develop coping strategies.</p>
+                    <div class="mood-check-in p-4 rounded bg-white shadow-sm mb-4">
+                        <h4 class="h6 fw-bold mb-3">How are you feeling today?</h4>
+                        <div class="mood-options d-flex justify-content-between mb-3">
+                            <button class="btn btn-light mood-btn"><i class="far fa-sad-cry"></i></button>
+                            <button class="btn btn-light mood-btn"><i class="far fa-frown"></i></button>
+                            <button class="btn btn-light mood-btn"><i class="far fa-meh"></i></button>
+                            <button class="btn btn-light mood-btn"><i class="far fa-smile"></i></button>
+                            <button class="btn btn-light mood-btn"><i class="far fa-grin-stars"></i></button>
+                        </div>
+                        <textarea class="form-control mb-3" rows="2" placeholder="Share more about how you're feeling (optional)"></textarea>
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                    <p class="small">Your mood data is private and used only to provide personalized support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scholarships Section -->
+    <section id="scholarships" class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">Scholarships & Courses</h2>
+                <p class="lead">Find opportunities that match your qualifications and interests</p>
+            </div>
+            <div class="row mb-4">
+                <div class="col-lg-8 mx-auto">
+                    <div class="scholarship-search p-4 rounded shadow-sm bg-white">
+                        <h3 class="h5 fw-bold mb-3">Find Your Opportunity</h3>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <select class="form-select" aria-label="Education level">
+                                    <option selected>Education Level</option>
+                                    <option value="1">High School</option>
+                                    <option value="2">Undergraduate</option>
+                                    <option value="3">Postgraduate</option>
+                                    <option value="4">Diploma/Certificate</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <select class="form-select" aria-label="Field of interest">
+                                    <option selected>Field of Interest</option>
+                                    <option value="1">Science & Technology</option>
+                                    <option value="2">Arts & Humanities</option>
+                                    <option value="3">Business & Management</option>
+                                    <option value="4">Healthcare & Medicine</option>
+                                    <option value="5">Vocational Training</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100">Search Opportunities</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="opportunity-card h-100 p-4 rounded shadow-sm bg-white">
+                        <div class="badge bg-primary mb-2">Scholarship</div>
+                        <h3 class="h5 fw-bold">Second Chance Scholarship</h3>
+                        <p>For students seeking alternative education paths after competitive exams.</p>
+                        <ul class="small list-unstyled mb-3">
+                            <li><strong>Amount:</strong> ₹50,000</li>
+                            <li><strong>Deadline:</strong> September 30, 2023</li>
+                            <li><strong>Eligibility:</strong> Students who appeared for NEET/JEE</li>
+                        </ul>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Apply Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="opportunity-card h-100 p-4 rounded shadow-sm bg-white">
+                        <div class="badge bg-success mb-2">Course</div>
+                        <h3 class="h5 fw-bold">Web Development Bootcamp</h3>
+                        <p>Intensive 12-week program to become a full-stack web developer.</p>
+                        <ul class="small list-unstyled mb-3">
+                            <li><strong>Duration:</strong> 12 weeks</li>
+                            <li><strong>Format:</strong> Online/Hybrid</li>
+                            <li><strong>Placement Support:</strong> Yes</li>
+                        </ul>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="opportunity-card h-100 p-4 rounded shadow-sm bg-white">
+                        <div class="badge bg-info text-dark mb-2">Internship</div>
+                        <h3 class="h5 fw-bold">Digital Marketing Internship</h3>
+                        <p>Learn practical skills while working with real clients in digital marketing.</p>
+                        <ul class="small list-unstyled mb-3">
+                            <li><strong>Duration:</strong> 3 months</li>
+                            <li><strong>Stipend:</strong> ₹10,000/month</li>
+                            <li><strong>Location:</strong> Remote</li>
+                        </ul>
+                        <a href="#" class="btn btn-sm btn-outline-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-outline-primary">View All Opportunities</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="fw-bold">Success Stories</h2>
+                <p class="lead">Hear from students who found their path with Prerna</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-card text-center p-4 rounded shadow-sm bg-white">
+                                    <img src="images/testimonial-1.jpg" alt="Testimonial" class="rounded-circle mb-3" width="80">
+                                    <p class="mb-3">"After failing JEE twice, I was devastated. Prerna helped me discover my passion for design. Today, I'm a successful UX designer at a tech startup, earning more than many of my engineering friends."</p>
+                                    <h5 class="h6 fw-bold mb-1">Rahul Sharma</h5>
+                                    <p class="small text-muted">UX Designer, Bangalore</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center p-4 rounded shadow-sm bg-white">
+                                    <img src="images/testimonial-2.jpg" alt="Testimonial" class="rounded-circle mb-3" width="80">
+                                    <p class="mb-3">"Failing NEET felt like the end of the world. The counselors at Prerna helped me process my emotions and explore alternative healthcare careers. I'm now studying Health Informatics and couldn't be happier."</p>
+                                    <h5 class="h6 fw-bold mb-1">Priya Patel</h5>
+                                    <p class="small text-muted">Health Informatics Student, Mumbai</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center p-4 rounded shadow-sm bg-white">
+                                    <img src="images/testimonial-3.jpg" alt="Testimonial" class="rounded-circle mb-3" width="80">
+                                    <p class="mb-3">"The peer support community at Prerna was my lifeline. Connecting with others who understood my struggle helped me overcome the shame and stigma. I found my calling in content creation and now run a successful educational YouTube channel."</p>
+                                    <h5 class="h6 fw-bold mb-1">Arjun Mehta</h5>
+                                    <p class="small text-muted">Educational Content Creator, Delhi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4 mb-lg-0">
+                    <h2 class="fw-bold">Ready to Start Your Journey?</h2>
+                    <p class="lead mb-0">Join thousands of students who have found their path with Prerna.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#" class="btn btn-light btn-lg">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="fw-bold mb-3">Prerna</h5>
+                    <p>Empowering students to overcome setbacks and find alternative paths to success.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="#counseling" class="text-white text-decoration-none">Counseling</a></li>
+                        <li class="mb-2"><a href="#career-explorer" class="text-white text-decoration-none">Career Explorer</a></li>
+                        <li class="mb-2"><a href="#community" class="text-white text-decoration-none">Community</a></li>
+                        <li class="mb-2"><a href="#resources" class="text-white text-decoration-none">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <h5 class="fw-bold mb-3">Support</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Help Center</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">FAQs</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <h5 class="fw-bold mb-3">Stay Updated</h5>
+                    <p>Subscribe to our newsletter for the latest resources and opportunities.</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Your email address" aria-label="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                    <p class="small">Emergency Helpline: <a href="tel:+918888888888" class="text-white">+91 8888888888</a> (24/7)</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="small mb-0">&copy; 2023 Prerna. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="small mb-0">Made with <i class="fas fa-heart text-danger"></i> for students across India</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Counseling Modal -->
+    <div class="modal fade" id="counselingModal" tabindex="-1" aria-labelledby="counselingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="counselingModalLabel">Schedule a Counseling Session</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="counselingType" class="form-label">Type of Counseling</label>
+                            <select class="form-select" id="counselingType" required>
+                                <option value="" selected disabled>Select an option</option>
+                                <option value="academic">Academic Guidance</option>
+                                <option value="career">Career Counseling</option>
+                                <option value="emotional">Emotional Support</option>
+                                <option value="general">General Consultation</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="preferredMode" class="form-label">Preferred Mode</label>
+                            <select class="form-select" id="preferredMode" required>
+                                <option value="" selected disabled>Select an option</option>
+                                <option value="text">Text Chat</option>
+                                <option value="voice">Voice Call</option>
+                                <option value="video">Video Call</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="preferredDate" class="form-label">Preferred Date</label>
+                            <input type="date" class="form-control" id="preferredDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="preferredTime" class="form-label">Preferred Time</label>
+                            <select class="form-select" id="preferredTime" required>
+                                <option value="" selected disabled>Select an option</option>
+                                <option value="morning">Morning (9 AM - 12 PM)</option>
+                                <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
+                                <option value="evening">Evening (4 PM - 8 PM)</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="anonymousCode" class="form-label">Create an Anonymous Code (for identification)</label>
+                            <input type="text" class="form-control" id="anonymousCode" placeholder="e.g., BlueEagle42" required>
+                            <div class="form-text">This code will be used to identify you without revealing your identity.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="briefDescription" class="form-label">Brief Description (optional)</label>
+                            <textarea class="form-control" id="briefDescription" rows="3" placeholder="Briefly describe what you'd like to discuss..."></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Schedule Session</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login/Register Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login or Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs" id="authTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login-tab-pane" type="button" role="tab" aria-controls="login-tab-pane" aria-selected="true">Login</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="register-tab" data-bs-toggle="tab" data-bs-target="#register-tab-pane" type="button" role="tab" aria-controls="register-tab-pane" aria-selected="false">Register</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content pt-3" id="authTabContent">
+                        <div class="tab-pane fade show active" id="login-tab-pane" role="tabpanel" aria-labelledby="login-tab" tabindex="0">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="loginEmail" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="loginEmail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="loginPassword" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="loginPassword" required>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Login</button>
+                                <div class="text-center mt-3">
+                                    <a href="#" class="small">Forgot password?</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="register-tab-pane" role="tabpanel" aria-labelledby="register-tab" tabindex="0">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="registerName" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="registerName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="registerEmail" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="registerEmail" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="registerPassword" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="registerPassword" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="registerConfirmPassword" class="form-label">Confirm Password</label>
+                                    <input type="password" class="form-control" id="registerConfirmPassword" required>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="agreeTerms" required>
+                                    <label class="form-check-label" for="agreeTerms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <div class="text-center w-100">
+                        <p class="mb-3">Or continue with</p>
+                        <div class="d-flex justify-content-center gap-2">
+                            <button class="btn btn-outline-secondary"><i class="fab fa-google"></i> Google</button>
+                            <button class="btn btn-outline-secondary"><i class="fab fa-facebook-f"></i> Facebook</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
